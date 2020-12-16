@@ -1,5 +1,7 @@
 # Companion Source for Functional Programming for Beginners with JavaScript
 
+> Repo based on https://github.com/knowthen/fpjs
+
 **"Why should I learn Functional Programming?"**
 
 Most software written today, is **overly complex**, **difficult to understand**, **challenging to test**, **hard to change** and **filled with** hard find **bugs**.
