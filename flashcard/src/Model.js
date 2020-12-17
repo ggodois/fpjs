@@ -1,22 +1,30 @@
 const initModel = {
-  nextId: 0,
+  nextId: 1,
   cards: [
     {
-      id: 0,
-      question: 'What is a pure function?',
-      answer: `It's a function that ...`,
+      id: 2,
+      question: 'What is currying?',
+      answer: `currying is the technique of translating the evaluation of a function that takes multiple arguments (or a tuple of arguments) into evaluating a sequence of functions, each with a single argument.`,
       rank: 0,
       hiddenAnswer: true,
-      edit: null,
+      edit: false,
     },
     {
       id: 1,
-      question: 'What is a pure function?',
-      answer: `It's a function that ...`,
+      question: 'What is partial application?',
+      answer: `Providing a function with fewer arguments than it takes, what's returned is a new function that takes the remaining parameters.`,
       rank: 0,
       hiddenAnswer: true,
-      edit: null,
-    }
+      edit: false,
+    },
+    {
+      id: 0,
+      question: 'Why use immutable data structures?',
+      answer: `To start with, it's the simplest type of data, and...`,
+      rank: 0,
+      hiddenAnswer: true,
+      edit: false,
+    },
   ],
 };
 
